@@ -1,8 +1,14 @@
+body {
+
+
+    font-family: 'Poppins', sans-serif;
+}
+
 h1 {
     font-size: 50px;
 }
 
-section {
+.new {
     display: flex;
 
     margin: 10px;
@@ -44,7 +50,7 @@ section {
 
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-
+    margin: 0;
 }
 
 .dream {
@@ -54,5 +60,42 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    margin: 0;
 
+}
+
+.foo {
+
+    text-align: center;
+}
+
+.pro {
+
+    color: orange;
+}
+
+.shad {
+    width: 40%;
+    box-shadow: 10px 10px 50px deeppink;
+    margin: 5% 5%;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.im {
+
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    margin: 0;
+
+}
+
+#bd {
+    border-left: 10px solid red;
+}
+
+#vd {
+
+    border-left: 10px solid gold;
 }
