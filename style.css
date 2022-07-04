@@ -2,7 +2,7 @@ h1 {
     font-size: 50px;
 }
 
-.sec {
+section {
     display: flex;
 
 
@@ -34,4 +34,14 @@ h1 {
     padding: 10px 20px;
     color: white;
     border-radius: 5px;
+}
+
+#init {
+    margin: 0;
+}
+
+.sec {
+
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
